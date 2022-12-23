@@ -27,6 +27,30 @@ npm run dev
 
 ```
 
+## If you want to use bootstrap
+```bash
+
+# In the project directory
+npm i --save bootstrap @popperjs/core
+
+# Install additional dependency.
+npm i --save-dev sass
+
+```
+
+## Create Bootstrap 5.2 Project structure (if you want to use bootstrap)
+```bash
+
+# Run below command to create src folder, scss and other file.
+
+mkdir {src,src/js,src/scss}
+touch src/index.html src/js/main.js src/scss/styles.scss vite.config.js
+
+```
+
+When you’re done, your complete project should look 
+like ![this](./public/tree.png)
+
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first
@@ -37,3 +61,5 @@ Please make sure to update tests as appropriate.
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
+
+[def]: ./public/tree.png
