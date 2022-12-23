@@ -48,7 +48,7 @@ touch src/index.html src/js/main.js src/scss/styles.scss vite.config.js
 
 ```
 
-When you’re done, your complete project should look 
+When you’re done, your complete project directory structure might look 
 like ![this](./public/tree.png)
 
 ## Contributing
