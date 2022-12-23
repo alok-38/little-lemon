@@ -1,6 +1,8 @@
 # Little Lemon
 
-Little Lemon is an  existing project to be examined by us but I decided to take it to the next level by creating one from scratch.
+This is the first HTML and CSS project in the [Meta Introduction to Front-End Development Specialisation on Coursera](https://www.coursera.org/learn/introduction-to-front-end-development/programming/omNSR/creating-an-html-document).
+
+Students are required to just examine this project to familiarize themselves with various HTML tags, but I decided to take to the next level by creating a project from scratch!
 
 ## Installation
 
