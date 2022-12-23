@@ -1,10 +1,10 @@
 # Little Lemon
 
-Foobar is a Python library for dealing with word pluralization.
+Little Lemon is an  existing project to be examined by us but I decided to take it to the next level by creating one from scratch.
 
 ## Installation
 
-This project was bootstrapped using [vite](https://vitejs.dev/guide/).
+This project was bootstrapped with [vite](https://vitejs.dev/guide/).
 
 ```bash
 npm create vite@latest
@@ -13,16 +13,16 @@ npm create vite@latest
 ## Usage
 
 ```bash
+
+# get into the directory
+cd my-project
+
+# install dependancy
 npm install
 
-# returns 'words'
-foobar.pluralize('word')
+# run the dev server
+npm run dev
 
-# returns 'geese'
-foobar.pluralize('goose')
-
-# returns 'phenomenon'
-foobar.singularize('phenomena')
 ```
 
 ## Contributing
