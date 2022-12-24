@@ -51,6 +51,11 @@ touch src/index.html src/js/main.js src/scss/styles.scss vite.config.js
 When you’re done, your complete project directory structure might look 
 like ![this](./public/tree.png)
 
+## UI Screenshot
+
+Without Bootstrap it might look like
+![this](./public/Screenshot%20from%202022-12-24%2012-11-20.png)
+
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first
