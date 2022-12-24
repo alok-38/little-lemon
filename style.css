@@ -190,6 +190,10 @@ h1 {
     flex-wrap: wrap;
   }
 
+  .row-menu p {
+    text-align: center;
+  }
+
 }
 
 /* // Small devices (landscape phones, 576px and up) */
