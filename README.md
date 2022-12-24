@@ -4,6 +4,11 @@ This is the first HTML and CSS project in the [Meta Introduction to Front-End De
 
 Students are required to just examine this project to familiarize themselves with various HTML tags, but I decided to take to the next level by creating a project from scratch!
 
+## UI Screenshot
+
+Without Bootstrap it might look like
+![this](./public/Screenshot%20from%202022-12-24%2012-11-20.png)
+
 ## Installation
 
 This project was bootstrapped with [vite](https://vitejs.dev/guide/).
@@ -28,6 +33,7 @@ npm run dev
 ```
 
 ## If you want to use bootstrap
+
 ```bash
 
 # In the project directory
@@ -39,6 +45,7 @@ npm i --save-dev sass
 ```
 
 ## Create Bootstrap 5.2 Project structure (if you want to use bootstrap)
+
 ```bash
 
 # Run below command to create src folder, scss and other file.
@@ -48,13 +55,8 @@ touch src/index.html src/js/main.js src/scss/styles.scss vite.config.js
 
 ```
 
-When you’re done, your complete project directory structure might look 
+When you’re done, your complete project directory structure might look
 like ![this](./public/tree.png)
-
-## UI Screenshot
-
-Without Bootstrap it might look like
-![this](./public/Screenshot%20from%202022-12-24%2012-11-20.png)
 
 ## Contributing
 
