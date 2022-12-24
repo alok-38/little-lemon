@@ -14,6 +14,9 @@ body {
   text-rendering: optimizeLegibility;
   font-size: 16px;
   font-family: ProximaNova-Regular, Helvetica, Arial, sans-serif;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
 }
 
 .container {
@@ -27,6 +30,7 @@ body {
 
 /* Image */
 .text-center .img-fluid {
+  margin-top: 40px;
   border-style: solid;
   border-width: 3px;
   border-color: #dedf40;
@@ -62,6 +66,7 @@ body {
   display: inline-block;
   animation: slide 20s linear infinite;
   color: #fff;
+  font-weight: 300;
 }
 
 @keyframes slide {
@@ -115,11 +120,45 @@ body {
   font-size: 1.15rem;
 }
 
+h1 {
+  padding: 20px 0 10px;
+  text-align: center;
+  font-size: 30px;
+  color: #373737;
+  margin: 0;
+  font-weight: 400;
+}
+
 /* Section Row menu */
 .row-menu {
+  width: 100%;
   display: flex;
-  width: 50%;
-  margin: auto;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.row-menu .col-12 {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.col-12 h2 {
+  padding: 20px 0 10px;
+  text-align: center;
+  font-size: 25px;
+  color: #373737;
+  margin: 0;
+  font-weight: 500;
+}
+
+.row-menu p {
+  font-family: ProximaNova-Regular, Helvetica, Arial, sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  color: #4a4a4a;
+  margin: 0 0 10px 25px;
 }
 
 /* // Extra small devices (portrait phones, less than 576px) */
