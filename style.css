@@ -15,7 +15,7 @@ body {
   font-size: 16px;
   font-family: ProximaNova-Regular, Helvetica, Arial, sans-serif;
   height: 100vh;
-  overflow: hidden;
+  /* overflow: hidden; */
   margin: 0;
 }
 
@@ -171,25 +171,46 @@ h1 {
 
 /* // Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-  ...
+  .container {
+    padding: 2rem;
+    line-height: 1.6;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+  }
+
+  .alert {
+    width: 100%;
+    margin: auto;
+  }
+
+  .row-menu {
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
-  ...
-}
+  .container {
+    padding: 2rem;
+    line-height: 1.6;
+    margin: auto;
+  }
 
-/* // Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width: 991.98px) {
-  ...
-}
+  .alert {
+    width: 100%;
+    margin: auto;
+  }
 
-/* // Large devices (desktops, 992px and up) */
-@media (min-width: 992px) and (max-width: 1199.98px) {
-  ...
-}
+  .btn {
+    margin: 0
+  }
 
-/* // Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-  ...
+  .row-menu {
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
