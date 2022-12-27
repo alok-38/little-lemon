@@ -193,7 +193,15 @@ h1 {
 
 /* Media queries */
 
-/* When the viewport width is between 30em - 80em */
-@media screen and (min-width: 30em) and (max-width: 80em) {
-  .container {}
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+/* 800px and below */
+@media (max-width: 800px) {
+  .row-menu {
+    flex-direction: column;
+  }
+
+  .alert {
+    width: 75%;
+  }
+
 }
