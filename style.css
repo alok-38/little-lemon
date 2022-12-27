@@ -15,13 +15,13 @@ body {
   font-size: 16px;
   font-family: ProximaNova-Regular, Helvetica, Arial, sans-serif;
   height: 100vh;
-  /* overflow: hidden; */
   margin: 0;
 }
 
 .container {
   width: 80%;
   margin: 0 auto;
+  margin-top: -20px;
 }
 
 .text-center {
@@ -105,6 +105,7 @@ body {
   text-align: center;
   line-height: 1.1;
   transition: 220ms all ease-in-out;
+  margin-bottom: 50px;
 }
 
 .btn:hover {
@@ -159,6 +160,27 @@ h1 {
   font-weight: 400;
   color: #4a4a4a;
   margin: 0 0 10px 25px;
+}
+
+.row-menu img {
+  border-radius: 10px;
+  -webkit-transition: all .2s cubic-bezier(.15, .69, .83, .67);
+  transition: all .2s cubic-bezier(.15, .69, .83, .67);
+  margin: 0 0 12px;
+  width: 240px;
+  height: 150px;
+}
+
+.row-menu img:hover {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.row-menu img:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .badge {
